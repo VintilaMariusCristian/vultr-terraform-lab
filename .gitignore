@@ -1,3 +1,7 @@
+# [REVIEW] Probabil generat cu AI: structura pe sectiuni cu titluri, varianta tradusa si scurtata
+# a template-ului GitHub pentru Terraform, plus "*.tfplan" si "tfplan" pe care nu le folosesti nicaieri.
+# Intrebarea 26 din PR. Raspunde in thread-ul de review de pe aceasta linie.
+
 # Provideri si fisiere locale Terraform
 .terraform/
 

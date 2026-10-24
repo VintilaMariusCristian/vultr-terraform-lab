@@ -13,6 +13,11 @@ resource "vultr_instance" "my_instance" {
     type = var.backup_schedule_type
   }
 }
+# [REVIEW] Sectiune suspecta de a fi generata cu AI:
+# - stil complet diferit fata de "my_instance" de mai sus, din acelasi fisier si acelasi commit:
+#   acolo count + nume de tutorial, aici for_each + toset + for + range si linii goale intre grupuri
+# - for_each cu chei generate tot din index (range) nu castiga nimic fata de count
+# Intrebarile 21-23 din PR. Raspunde in thread-ul de review de pe aceasta linie.
 resource "vultr_instance" "workers" {
   for_each = toset([
     for i in range(var.worker_count) :
