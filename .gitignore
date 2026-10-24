@@ -1,11 +1,9 @@
-# [REVIEW] Probabil generat cu AI: structura pe sectiuni cu titluri, varianta tradusa si scurtata
-# a template-ului GitHub pentru Terraform, plus "*.tfplan" si "tfplan" pe care nu le folosesti nicaieri.
-# Intrebarea 26 din PR. Raspunde in thread-ul de review de pe aceasta linie.
-
 # Provideri si fisiere locale Terraform
+# [Q1] .terraform/ vs .terraform.lock.hcl
 .terraform/
 
 # State Terraform
+# [Q2] state-ul local
 *.tfstate
 *.tfstate.*
 
@@ -14,6 +12,7 @@
 *.tfvars.json
 
 # Planuri salvate
+# [Q26] .tfplan, .tfvars si state comis din greseala
 *.tfplan
 tfplan
 

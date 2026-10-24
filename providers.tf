@@ -7,10 +7,9 @@ terraform {
   }
 }
 
+# [Q27] rate_limit si retry_limit
 provider "vultr" {
-  api_key = var.vultr_api_key
-  # [REVIEW] Copiat 1:1 din exemplul din documentatia providerului Vultr (nu e AI, dar nu e nici scris de tine).
-  # Intrebarea 27 din PR. Raspunde in thread-ul de review de pe aceasta linie.
+  api_key     = var.vultr_api_key
   rate_limit  = 100
   retry_limit = 3
 }

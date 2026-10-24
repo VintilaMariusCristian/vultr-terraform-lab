@@ -1,3 +1,4 @@
+# [Q5] variabile si default-uri duplicate fata de root
 variable "monthly_cost" {
   type    = number
   default = 60

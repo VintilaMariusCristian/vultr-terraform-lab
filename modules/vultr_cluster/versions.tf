@@ -1,3 +1,4 @@
+# [Q6] required_providers in modul si pinning
 terraform {
   required_providers {
     vultr = {
