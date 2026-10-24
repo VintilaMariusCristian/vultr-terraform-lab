@@ -1,0 +1,18 @@
+# Provideri si fisiere locale Terraform
+.terraform/
+
+# State Terraform
+*.tfstate
+*.tfstate.*
+
+# Valori locale ale variabilelor
+*.tfvars
+*.tfvars.json
+
+# Planuri salvate
+*.tfplan
+tfplan
+
+# Loguri de eroare
+crash.log
+crash.*.log
